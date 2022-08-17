@@ -13,3 +13,11 @@ total_summary<-Suspension_Coil%>%summarize(Mean_PSI=mean(PSI),Median_PSI=median(
 lot_summary<-Suspension_Coil%>%group_by(Manufacturing_Lot)%>%summarize(Mean=mean(PSI),Median=median(PSI),var=var(PSI),SD=sd(PSI))
 
 # Deliverable 3
+t.test(Suspension_Coil$PSI,mu=1500)
+lot_one <- subset(Suspension_Coil,Manufacturing_Lot == 'Lot1')
+lot_two<-subset(Suspension_Coil,Manufacturing_Lot=="Lot2")
+lot_three<-subset(Suspension_Coil,Manufacturing_Lot=="Lot3")
+
+t.test(lot_one$PSI,mu=1500)
+t.test(lot_two$PSI,mu=1500)
+t.test(lot_three$PSI,mu=1500)
