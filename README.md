@@ -17,4 +17,8 @@
 
   From the analysis, we can see the overall variance of all lots is 62.3. Individually, lot 1 and lot 2 meet the expectation but the variance of lot 3 is 170.3 which is exceed the expectation.
 
+## T-Tests on Suspension Coils
+
+
+
 ###
