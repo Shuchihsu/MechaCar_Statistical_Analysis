@@ -19,6 +19,22 @@
 
 ## T-Tests on Suspension Coils
 
+![loading page](https://github.com/jkmom/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_all.png)
 
+t-test that compares all manufacturing lots against mean PSI of the population. The p-value is 0.06. We have set a significant level of 0.05. So we can’t reject the null hypothesis – the mean is probably equal to the population mean.
+
+![loading page](https://github.com/jkmom/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_lot1.png)
+
+p-value 1: this is also higher than our expectation (0.05). So we can’t reject the null hypothesis as above.
+
+![loading page](https://github.com/jkmom/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_lot2.png)
+
+
+p-value 0.6072: p-value 1: this is also higher than our expectation (0.05). So we can’t reject the null hypothesis as above.
+
+
+![loading page](https://github.com/jkmom/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_lot3.png)
+ 
+p-value 0.0417: this value is lower than 0.05. So we can reject the null hypothesis.
 
 ###
