@@ -1,5 +1,9 @@
 # MechaCar_Statistical_Analysis
 
+## Overview of the project
+
+The goal of the project is to analyze metrics that can affect the manufacturing a new car prototype and compare vehicle performance across different manufacturer lots. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD capabilities, MPG, and PSI.
+
 ## Linear Regression to predict MPG
 
 ![loading page]( https://github.com/jkmom/MechaCar_Statistical_Analysis/blob/main/Resources/Mechacar_mpg.png)
@@ -35,6 +39,15 @@ p-value 0.6072: p-value 1: this is also higher than our expectation (0.05). So w
 
 ![loading page](https://github.com/jkmom/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_lot3.png)
  
-p-value 0.0417: this value is lower than 0.05. So we can reject the null hypothesis.
+p-value 0.0417: this value is lower than 0.05. So, we can reject the null hypothesis.
 
-###
+## Study Design: MechaCar vs Competition
+
+In the statistical study to compare the performance between MechaCar and other competitors, I would like to focus on highway fuel efficiency. If possible, I would like to get data for the fuel efficiency not just for highway but also for city MPG as well. 
+
+The null hypothesis would be that there is no difference for the fuel efficiency between MechCar vehicles and competitors’ vehicles.
+
+I would like to use one-sample T-test. Keep it simple.
+
+I will need the means of the MPGs from the competitors and MechCar.
+
